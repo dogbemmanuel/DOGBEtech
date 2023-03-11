@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/DOGBEtech/static/css/main.667435df.css",
+    "main.js": "/DOGBEtech/static/js/main.946a1fec.js",
+    "static/media/CV.docx": "/DOGBEtech/static/media/CV.590ced58ca5974507fd1.docx",
+    "static/media/port8.jpg": "/DOGBEtech/static/media/port8.679728b4208bdd2762c2.jpg",
+    "static/media/port9.png": "/DOGBEtech/static/media/port9.22caac5db2688ff5334c.png",
+    "static/media/me1.png": "/DOGBEtech/static/media/me1.4fc6d4669cc51eafb94b.png",
+    "static/media/port2.jpg": "/DOGBEtech/static/media/port2.19904f903e037f4eb69b.jpg",
+    "static/media/powerpoint.png": "/DOGBEtech/static/media/powerpoint.e570064737fb6b9f035c.png",
+    "static/media/port1.png": "/DOGBEtech/static/media/port1.1fc430c79e448b1eb8d3.png",
+    "static/media/avatar3.jpg": "/DOGBEtech/static/media/avatar3.b5a8f4a8191d1f47abec.jpg",
+    "static/media/avatar4.jpg": "/DOGBEtech/static/media/avatar4.3546f4be7035ce7b8c38.jpg",
+    "static/media/food.webp": "/DOGBEtech/static/media/food.76c871e04a8990afbdcc.webp",
+    "static/media/me2.jpg": "/DOGBEtech/static/media/me2.d3dba43d1130ddd7b715.jpg",
+    "static/media/port5.jpg": "/DOGBEtech/static/media/port5.9069e14d4b891c9df351.jpg",
+    "static/media/avatar6.png": "/DOGBEtech/static/media/avatar6.0d9bbe8ca4af64e79325.png",
+    "static/media/avatar5.png": "/DOGBEtech/static/media/avatar5.77e3ea736bc7ca028088.png",
+    "index.html": "/DOGBEtech/index.html",
+    "main.667435df.css.map": "/DOGBEtech/static/css/main.667435df.css.map",
+    "main.946a1fec.js.map": "/DOGBEtech/static/js/main.946a1fec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.667435df.css",
+    "static/js/main.946a1fec.js"
+  ]
+}
