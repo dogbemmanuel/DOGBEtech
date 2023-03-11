@@ -1,0 +1,93 @@
+.about__contianer{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 4%;
+    /* margin-right: 5rem; */
+    margin-left: 7rem;
+}
+
+.about__me{
+    width: 75%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, var(--color-secodary), transparent);
+    display: grid;
+    place-items: center;
+    left: 10%;
+}
+
+.about__me-image{
+    height: 20rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
+}
+
+.about__me-image:hover{
+    transform: rotate(0);
+    border: 1px solid var(--color-grey);
+}
+
+.about_cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about_icon{
+    font-size: 1.5rem;
+    color: var(--color-grey);
+    margin-bottom: 1rem;
+}
+
+.about_content p{
+    margin: 1rem 0 1rem 1rem;
+}
+
+.about_content a{
+    margin: 0 0 0 1rem;
+}
+
+
+/* ==============Media Queries (meduim screen) the abiut section============ */
+@media screen and (max-width:1040px) {
+    
+    .section-2{
+      margin-top: 4rem;
+    }
+
+    .about__contianer{
+        grid-template-columns: 1fr;
+        width: 90%;
+        margin: auto;
+        
+    }
+    .about__me{
+        width: 50%;
+        margin: auto;
+    }
+   }
+
+/* ==============Media Queries (small screen) the about section============ */
+@media screen and (max-width:768px) {
+    .section-2{
+        margin-top: 3rem;
+    }
+    .about__contianer{
+        margin: auto;
+    }
+    .about__me{
+        margin: auto;
+    }
+    .about_cards{
+        display: flex;
+        flex-flow: column;
+    }
+    .about_card{
+        margin-top: 1rem;
+        padding: 0.8rem 1rem 0.8rem 1rem;
+    }
+    .about__me{
+        width: 100%;
+    }
+   }

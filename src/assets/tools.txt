@@ -1,0 +1,3 @@
+SwiperJS
+emailjs(npm install emailjs-com --save)
+react icons
