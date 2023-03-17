@@ -29,12 +29,12 @@ const Contact = () => {
 
   return (
     <section className='section-6' id='contact'>
-      <h5>Get In Touch</h5>
-      <h2 className='text-light'>Contact Me</h2>
+      <h5 data-aos="fade-up">Get In Touch</h5>
+      <h2 className='text-light' data-aos="fade-up">Contact Me</h2>
 
       <div className="container contact_container">
           <div className="contact_options">
-            <article className="contact_option">
+            <article className="contact_option" data-aos="zoom-in-up">
               <MdOutlineMailOutline className='contact_option_icon'/>
               <a href="mailto:dogbemanuel@gmail.com" target='_blank' rel='noreferrer' className='contact_link'>
               <h4>Email</h4>
@@ -42,14 +42,14 @@ const Contact = () => {
                 Send a message
               </a>
             </article>
-            <article className="contact_option">
+            <article className="contact_option" data-aos="zoom-in-up">
               <RiMessengerLine className='contact_option_icon'/>
               <a href="https://m.me/zabio.henandez" target='_blank' rel='noreferrer' className='contact_link'>
               <h4>Messenger</h4>
               <h5>Emmanuel Dogbe</h5>
                 Send a message</a>
             </article>
-            <article className="contact_option">
+            <article className="contact_option" data-aos="zoom-in-up">
               <BsWhatsapp className='contact_option_icon'/>
               <a href="https://api.whatsapp.com/send?phone=+233559193660" target='_blank' rel='noreferrer' className='contact_link'>
               <h4>WhatsApp</h4>
@@ -64,11 +64,11 @@ const Contact = () => {
 
                 {/* FOR ACTION FIELD WILL USE LATER */}
           {/* ref={form} onSubmit={sendEmail} */}
-          <form action=''>
+          <form action='' data-aos="zoom-in-up">
             <input type="text" name='name' placeholder='Your full name' required />
             <input type="email" name='email' placeholder='Your email' required />
             <textarea name="message" rows="7" placeholder='Your message' required></textarea>
-            <button type='submit' className='btn btn-primary'>Send message</button>
+            <button type='submit' className='btn btn-primary' data-aos="fade-up">Send message</button>
           </form>
 
       </div>

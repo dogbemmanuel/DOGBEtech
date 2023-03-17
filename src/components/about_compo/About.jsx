@@ -5,20 +5,27 @@ import Card from "../card_folder/Card";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
+import { useEffect } from "react";
+import AOS from 'aos';
+import "aos/dist/aos.css";
+
 
 const About = () => {
+  useEffect(()=>{
+    AOS.init({duration: 2000});
+  },[]);
   return (
     <section className="section-2" id="about">
-      <h5>Get To Know</h5>
-      <h2 className='text-light'>About Me</h2>
+      <h5 data-aos="fade-up">Get To Know</h5>
+      <h2 className='text-light' data-aos="fade-up">About Me</h2>
       <div className="container about__contianer">
-        <div className="about__me">
+        <div className="about__me" data-aos="fade-up">
           <div className="about__me-image">
             <img src={me2} alt="Emma" />
           </div>
         </div>
         <div className="about_content">
-          <div className="about_cards">
+          <div className="about_cards" data-aos="fade-up">
             <Card
               the_about_icon={<FaAward className="about_icon" />}
               card_hearder="Experience"
@@ -35,7 +42,7 @@ const About = () => {
               card_sub="2+ completed"
             />
           </div>
-          <p>
+          <p data-aos="fade-up">
             Energetic and interactive young man with excellent multitasking
             ability. With knowledge in software development process, website
             development and design. Supportive, hardworking and enthusiastic
@@ -43,7 +50,7 @@ const About = () => {
             issues. It would be a greater challenge and a boost to be part of
             any team and support with my ideas, skills and build together.
           </p>
-          <a href="#contact" className="btn btn-primary">
+          <a href="#contact" className="btn btn-primary" data-aos="fade-up">
             Lets Talk
           </a>
         </div>

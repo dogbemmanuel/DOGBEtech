@@ -56,12 +56,12 @@ const data = [
 const Portfolio = () => {
   return (
     <section className="section-4">
-      <h5>My recent works</h5>
-      <h2 className="text-light">PORTFOLIO</h2>
+      <h5 data-aos="fade-up">My recent works</h5>
+      <h2 className="text-light" data-aos="fade-up">PORTFOLIO</h2>
       <div className="contianer portfolio_container" id="portfolio">
         {data.map(({ id, image, title, github, demo }) => {
           return (
-            <article key={id} className="portfolio_items">
+            <article key={id} className="portfolio_items" data-aos="zoom-in-up">
               <div className="portfolio_item_image">
                 <img className="pic" src={image} alt="BANK" />
               </div>

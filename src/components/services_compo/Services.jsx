@@ -6,10 +6,10 @@ import {BsCheck2All} from 'react-icons/bs';
 const Services = () => {
     return(
         <section className='section_4' id='service'>
-            <h5>What I offer</h5>
-            <h2 className='text-light'>SERVICES</h2>
+            <h5 data-aos="fade-up">What I offer</h5>
+            <h2 className='text-light' data-aos="fade-up">SERVICES</h2>
             <div className="container service_container">
-                <article className='service'>
+                <article className='service' data-aos="fade-up">
                     <div className="service_head">
                         <h3>UI/UX DESIGN</h3>
                     </div>
@@ -39,7 +39,7 @@ const Services = () => {
 
                 {/* END OF UI/UX */}
 
-                <article className='service'>
+                <article className='service' data-aos="fade-up">
                     <div className="service_head">
                         <h3>WEB DEVELOPMENT</h3>
                     </div>
@@ -73,7 +73,7 @@ const Services = () => {
 
                 {/* END OF WEB DEVELOPMENT */}
 
-                <article className='service'>
+                <article className='service' data-aos="fade-up">
                     <div className="service_head">
                         <h3>CONTENT CREATION</h3>
                     </div>
