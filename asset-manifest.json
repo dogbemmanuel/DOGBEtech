@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DOGBEtech/static/css/main.667435df.css",
-    "main.js": "/DOGBEtech/static/js/main.946a1fec.js",
+    "main.css": "/DOGBEtech/static/css/main.0810e170.css",
+    "main.js": "/DOGBEtech/static/js/main.6e1c9a00.js",
     "static/media/CV.docx": "/DOGBEtech/static/media/CV.590ced58ca5974507fd1.docx",
     "static/media/port8.jpg": "/DOGBEtech/static/media/port8.679728b4208bdd2762c2.jpg",
     "static/media/port9.png": "/DOGBEtech/static/media/port9.22caac5db2688ff5334c.png",
@@ -17,11 +17,11 @@
     "static/media/avatar6.png": "/DOGBEtech/static/media/avatar6.0d9bbe8ca4af64e79325.png",
     "static/media/avatar5.png": "/DOGBEtech/static/media/avatar5.77e3ea736bc7ca028088.png",
     "index.html": "/DOGBEtech/index.html",
-    "main.667435df.css.map": "/DOGBEtech/static/css/main.667435df.css.map",
-    "main.946a1fec.js.map": "/DOGBEtech/static/js/main.946a1fec.js.map"
+    "main.0810e170.css.map": "/DOGBEtech/static/css/main.0810e170.css.map",
+    "main.6e1c9a00.js.map": "/DOGBEtech/static/js/main.6e1c9a00.js.map"
   },
   "entrypoints": [
-    "static/css/main.667435df.css",
-    "static/js/main.946a1fec.js"
+    "static/css/main.0810e170.css",
+    "static/js/main.6e1c9a00.js"
   ]
 }
