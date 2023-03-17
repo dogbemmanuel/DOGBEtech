@@ -16,7 +16,7 @@ const Services = () => {
                     <ul className='service_list'>
                         <li>
                             <BsCheck2All className='services_list_icons'/>
-                            <p>Website Designe.</p>
+                            <p>Website Design.</p>
                         </li>
                         <li>
                             <BsCheck2All className='services_list_icons'/>
@@ -24,7 +24,7 @@ const Services = () => {
                         </li>
                         <li>
                             <BsCheck2All className='services_list_icons'/>
-                            <p>CV (Curricullume Vitae template)/ Resume.</p>
+                            <p>Curriculum Vitae (CV)/Resume.</p>
                         </li>
                         <li>
                             <BsCheck2All className='services_list_icons'/>
