@@ -51,7 +51,7 @@ const About = () => {
             any team and support with my ideas, skills and build together.
           </p>
           <a href="#contact" className="btn btn-primary" data-aos="fade-up">
-            Lets Talk
+            Let's Talk
           </a>
         </div>
       </div>
