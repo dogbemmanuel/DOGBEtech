@@ -18,7 +18,7 @@
   --color-grey: rgb(99, 48, 48);
   --bg-image: url(./assets/bg.jpg);
 
-  --transition: all 400ms ease;
+  ;--transition: all 400ms ease
   
   --container-width-lg: 90%;
   /* --container-width-md: 100%; */

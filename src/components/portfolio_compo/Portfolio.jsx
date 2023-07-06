@@ -8,6 +8,7 @@ import port9 from "../../assets/port9.png";
 import port5 from "../../assets/port5.jpg";
 import powerpoint from "../../assets/powerpoint.png";
 
+
 const data = [
   {
     id: 1,
@@ -86,3 +87,4 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+

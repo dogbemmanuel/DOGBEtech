@@ -1,80 +1,80 @@
-.section-7{
-    margin-top: 3rem;
+.section-7 {
+  margin-top: 3rem;
 }
 
-footer{
-    background: var(--color-secodary);
-    padding: 1rem ;
-    text-align: center;
-    font-size: 0.9rem;
+footer {
+  background: var(--color-secodary);
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
 }
 
-footer a{
-    color: white;
+footer a {
+  color: white;
 }
 
-.footer_logo{
-    font-size: 2rem;
-    font-weight: 900;
-    margin-bottom: 2rem;
-    display: inline-block;
-    color: black;
+.footer_logo {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+  display: inline-block;
+  color: black;
 }
 
-.permalinks{
-    display: flex;
-    position: relative;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    margin: 0 auto 2rem;
+.permalinks {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 auto 2rem;
 }
 
-.permalinks a{
-    position: relative;
+.permalinks a {
+  position: relative;
 }
 
 footer ul li a:after {
-    content: '';
-    position: absolute;
-    background-color: #ff00aa;
-    width: 0;
-    height: 3px;
-    bottom: -8px;
-    left: 0;
+  content: "";
+  position: absolute;
+  background-color: #ff00aa;
+  width: 0;
+  height: 3px;
+  bottom: -8px;
+  left: 0;
 
-    transform-origin: bottom right;
-    transition: var(--transition)
-  }
-  
-footer a:hover::after{
-    width: 100%;
+  transform-origin: bottom right;
+  transition: var(--transition);
 }
 
-.footer_socials{
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 3.7rem;
+footer a:hover::after {
+  width: 100%;
 }
 
-.footer_socials a{
-    background-color: black;
-    padding: 0.4rem;
-    border-radius: 0.5rem;
-    display: flex;
-    border: 1px solid transparent;
+.footer_socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3.7rem;
 }
 
-.footer_socials a:hover{
-    background-color: rgba(0, 0, 0, 0.3);
+.footer_socials a {
+  background-color: black;
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+  display: flex;
+  border: 1px solid transparent;
+}
+
+.footer_socials a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* ==========SMALL SCREEN============ */
 
-@media screen and (max-width:768px) {
-    .permalinks{
-        flex-direction: column;
-        gap: 1rem;
-    }
-   }
+@media screen and (max-width: 768px) {
+  .permalinks {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
