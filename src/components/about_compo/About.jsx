@@ -29,17 +29,17 @@ const About = () => {
             <Card
               the_about_icon={<FaAward className="about_icon" />}
               card_hearder="Experience"
-              card_sub="0+ year working"
+              card_sub="1+ years working"
             />
             <Card
               the_about_icon={<FiUsers className="about_icon" />}
               card_hearder="Clients"
-              card_sub="1+ clients"
+              card_sub="9+ clients"
             />
             <Card
               the_about_icon={<VscFolderLibrary className="about_icon" />}
               card_hearder="Projects"
-              card_sub="2+ completed"
+              card_sub="8+ completed"
             />
           </div>
           <p data-aos="fade-up">
